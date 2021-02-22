@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Інтернет-Магазин одягу</title>
+    <!-- <link rel = "icon" href ="../files/icons/clothes.png" type = "image/x-icon"> -->
+    <link rel="icon" href="assets/files/icons/clothes.png" type="image/icon type">
+    <link rel="stylesheet" href="assets/styles/css/indexstyle.css">
+
+    <style>
+        .container_slider_css{margin:50px auto;margin-top:0;width:1485px;height:800px;overflow:hidden;position:relative}
+        .photo_slider_css{position:absolute;animation:round 16s infinite;opacity:0;width:100%}
+        @keyframes round {
+            25%{opacity:1}
+            40%{opacity:0}
+        }
+        img:nth-child(1){animation-delay:12s}
+        img:nth-child(2){animation-delay:8s}
+        img:nth-child(3){animation-delay:4s}
+        img:nth-child(4){animation-delay:0}
+        @media(min-width:0px) and (max-width:320px) {
+            .container_slider_css{width:80%;height:190px}
+        }
+        @media(min-width:321px) and (max-width:480px) {
+            .container_slider_css{width:80%;height:190px}
+        }
+    </style>
+    <ul class="menu-main">
+        <li><a href="" class="current">Головна</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="delivery.html">Доставка</a></li>
+        <li><a href="about_us.html">Про нас</a></li>
+        <li><a href="rewiews.html">Відгуки</a></li>
+    </ul>
+
+
+</head>
+
+
+
+<body>
+<div class="container_slider_css">
+    <img class="photo_slider_css" src="assets/files/images/slideshow/slide1.png" alt="">
+    <img class="photo_slider_css" src="assets/files/images/slideshow/slide2.png" alt="">
+    <img class="photo_slider_css" src="assets/files/images/slideshow/slide3.png" alt="">
+    <img class="photo_slider_css" src="assets/files/images/slideshow/slide3.png" alt="">
+</div>>
+<a class="slider__control slider__control_left" href="#" role="button"></a>
+<a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+</div>
+<center>
+<div class="product-item">
+    <div class="product-list">
+        <img src="assets/main_goods/1.png" width="800" height="600">
+        <h3>Маленькое черное платье</h3>
+        <span class="price">₽ 1999</span>
+        <a href="good.html" class="button">В корзину</a>
+    </div>
+
+
+</div>
+<div class="product-item">
+    <div class="product-list">
+        <img src="assets/main_goods/2.png" width="800" height="600">
+        <h3>Маленькое черное платье</h3>
+        <span class="price">₽ 1999</span>
+        <a href="" class="button">В корзину</a>
+    </div>
+
+
+</div>
+<div class="product-item">
+    <div class="product-list">
+        <img src="assets/main_goods/3.png" width="800" height="600">
+        <h3>Маленькое черное платье</h3>
+        <span class="price">₽ 1999</span>
+        <a href="" class="button">В корзину</a>
+    </div>
+    </center>
+
+
+</body>
+
+<footer>
+
+</footer>
+</html>
